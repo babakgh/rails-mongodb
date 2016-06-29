@@ -2,7 +2,8 @@ production:
     rails: 
         configuration:
             use_asset_pipeline: true
-
+    mongodb:
+        server: external
 development: 
     rails: 
         configuration:

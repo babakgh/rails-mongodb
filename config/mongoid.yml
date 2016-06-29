@@ -1,8 +1,8 @@
 production:
   sessions:
     default:
-      database: mongoid_rails_production
-      hosts: ["babak66:eybaba13@ds023634.mlab.com:23634"]
+      uri: <%= ENV['MONGOHQ_URL']%>
+      #database: mongoid_rails_production
       #hosts: ["<%= ENV['MONGODB_ADDRESS']%>:27017"]
 development:
   # Configure available database sessions. (required)
