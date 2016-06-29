@@ -1,7 +1,7 @@
 production:
   sessions:
     default:
-      database: mongoid_rails_production
+      database: bgh_prd_mongoid_rails_production
       hosts: [babak66:eybaba13@ds023634.mlab.com:23634]
       #hosts: ["<%= ENV['MONGODB_ADDRESS']%>:27017"]
 development:
